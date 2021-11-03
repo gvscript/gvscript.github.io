@@ -2,6 +2,8 @@
 
 :root {
   --primary-white: #fff;
+  --primary-green: #008037;
+  --primary-dark: rgba(255,255,255,0);
 }
 
 body {
@@ -9,8 +11,16 @@ body {
 }
 
 /******************************NAVBAR***************************************/
+.container {
+  display: flex;
+  justify-content: space-between !important;
+}
+
 .logo{
   width: 10rem;
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 5rem !important;
 }
 
 /*------------NAV LINKS--------------------*/
@@ -28,10 +38,22 @@ nav ul li {
   margin-left: 0.0375rem;
   margin-right: 0.0375rem;
   color: var(--primary-white) !important;
+  border-top: 0.125rem solid var(--primary-dark);
 }
 
-.navbar-brand {
-  max-width: 17.25rem;
-  padding: 0 !important;
-  height: 5rem !important;
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+  border-top: 0.125rem solid var(--primary-green);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.125rem solid var(--primary-green);
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%);
+  font-weight: 500;
+}
+
+.navbar-toggler:focus {
+  color: var(--primary-green) !important;
 }
