@@ -1,5 +1,5 @@
 import React from 'react';
-import gvLogo from "../gvLogo.png"
+import gvLogo from "../img/gvLogo.png"
 
 const Navbar = () => {
   return (
