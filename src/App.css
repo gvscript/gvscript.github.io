@@ -14,8 +14,7 @@ body {
 
 /****************************** NAVBAR ***************************************/
 .container {
-  display: flex;
-  justify-content: space-between !important;
+  position: fixed;
 }
 
 .logo{
