@@ -13,8 +13,10 @@ body {
 }
 
 /****************************** NAVBAR ***************************************/
-.container {
-  position: fixed;
+nav {
+  width: 100%;
+  position: fixed !important;
+  z-index: 1;
 }
 
 .logo{
@@ -36,8 +38,8 @@ nav ul li {
 }
 
 .navbar-nav > li > a {
-  margin-left: 0.0375rem;
-  margin-right: 0.0375rem;
+  /* margin-left: 0.0375rem;
+  margin-right: 0.0375rem; */
   color: var(--primary-white) !important;
   border-top: 0.125rem solid var(--primary-dark);
 }
@@ -60,6 +62,9 @@ nav ul li {
 }
 
 /****************************** HEADER ***************************************/
+header {
+  margin-top: 500px !important;
+}
 
 .header-wraper {
   position: relative;
