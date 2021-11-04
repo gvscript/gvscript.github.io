@@ -72,7 +72,7 @@ nav ul li {
   opacity: 0.9;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -155,7 +155,8 @@ nav ul li {
 .content-container {
   display: flex;
   align-items: center;
-  border: 1px solid rgb(101, 19, 168);
+  height: 100vh;
+  /* border: 1px solid rgb(101, 19, 168); */
 
 }
 
@@ -167,12 +168,15 @@ nav ul li {
 }
 
 .perfil-photo {
-  border: 1px solid rgb(235, 231, 1);
+  /* border: 1px solid rgb(235, 231, 1); */
 
 }
 
 .about-me {
-  border: 1px solid rgb(10, 100, 173);
+  /* border: 1px solid rgb(10, 100, 173); */
   width: 100vh;
-
+  color: var(--primary-green);
+}
+.about-me h3 {
+  text-align: center;
 }
