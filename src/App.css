@@ -62,9 +62,9 @@ nav ul li {
 }
 
 /****************************** HEADER ***************************************/
-header {
+/* header {
   margin-top: 500px !important;
-}
+} */
 
 .header-wraper {
   position: relative;
@@ -135,4 +135,44 @@ header {
   background-color: var(--primary-hover-green);
   color: var(--primary-white);
   transition: .2s ease-in-out;
+}
+
+/****************************** SOBRE ***************************************/
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(235, 1, 1);
+}
+
+.about > h2 {
+  text-transform: uppercase;
+  margin: 2rem;
+  color: var(--primary-green);
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(101, 19, 168);
+
+}
+
+.content-container img {
+  border-radius: 50%;
+  border: 0.6rem double var(--primary-green);
+  margin-right: 0.6rem;
+  width: 50vh;
+}
+
+.perfil-photo {
+  border: 1px solid rgb(235, 231, 1);
+
+}
+
+.about-me {
+  border: 1px solid rgb(10, 100, 173);
+  width: 100vh;
+
 }
