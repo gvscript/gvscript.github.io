@@ -28,7 +28,7 @@ const Sobre = () => {
               </ul>
             </div>
             <div>
-              <h4>O que eu curto:</h4>
+              <h4>O que curto:</h4>
               <ul>
                 <li>Música</li>
                 <li>Cozinhar</li>

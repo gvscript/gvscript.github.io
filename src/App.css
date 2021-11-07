@@ -157,8 +157,6 @@ nav ul li {
   align-items: center;
   margin: 1.5rem;
   /* border: 1px solid rgb(101, 19, 168); */
-
-
 }
 
 .content-container img {
@@ -166,6 +164,13 @@ nav ul li {
   border: 0.6rem double var(--primary-green);
   margin-right: 0.6rem;
   width: 22rem;
+}
+
+
+.about-me {
+  /* border: 1px solid orange; */
+  width: 50%;
+  color: var(--primary-dark-op);
 }
 
 @media(max-width: 600px) {
@@ -185,15 +190,12 @@ nav ul li {
     width: 15.625rem;
     margin-bottom: 0.9rem;
   }
+
+  .about-me {
+    width: 100%;
+  }
 }
 
-
-
-.about-me {
-  /* border: 1px solid orange; */
-  width: 50%;
-  color: var(--primary-dark-op);
-}
 .about-me h3 {
   text-align: center;
   color: var(--primary-green);
