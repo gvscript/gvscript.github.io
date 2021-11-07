@@ -1,8 +1,8 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Sobre from './components/Sobre';
+import Navbar from './Seções/Navbar';
+import Header from './Seções/Header';
+import Sobre from './Seções/Sobre';
 
 function App() {
   return (
