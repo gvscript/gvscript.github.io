@@ -1,11 +1,10 @@
 import React from 'react';
 import foto from '../img/Gabis2.jpeg'
-import Type from 'react-typed';
 
 const Sobre = () => {
   return(
-    <div class= "about">
-      <h2>Sobre</h2>
+    <div id="sobre" class= "about">
+      {/* <h2>Sobre</h2> */}
       <div className="content-container">
 
         <img alt="Foto Gabriel" src={foto}/>

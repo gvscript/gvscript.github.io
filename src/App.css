@@ -148,14 +148,14 @@ nav ul li {
 .about > h2 {
   text-transform: uppercase;
   margin: 1rem;
-  color: var(--primary-dark-op);
+  color: var(--primary-green);
 }
 
 .content-container {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 1.5rem;
   /* border: 1px solid rgb(101, 19, 168); */
 
 
@@ -191,10 +191,12 @@ nav ul li {
 
 .about-me {
   /* border: 1px solid orange; */
+  width: 50%;
   color: var(--primary-dark-op);
 }
 .about-me h3 {
   text-align: center;
+  color: var(--primary-green);
 }
 
 .quality-hooby {
