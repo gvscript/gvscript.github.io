@@ -13,8 +13,10 @@ body {
 }
 
 /****************************** NAVBAR ***************************************/
-.container {
-  position: fixed;
+nav {
+  width: 100%;
+  position: fixed !important;
+  z-index: 1;
 }
 
 .logo{
@@ -36,8 +38,8 @@ nav ul li {
 }
 
 .navbar-nav > li > a {
-  margin-left: 0.0375rem;
-  margin-right: 0.0375rem;
+  /* margin-left: 0.0375rem;
+  margin-right: 0.0375rem; */
   color: var(--primary-white) !important;
   border-top: 0.125rem solid var(--primary-dark);
 }
@@ -67,7 +69,7 @@ nav ul li {
   opacity: 0.9;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -130,4 +132,75 @@ nav ul li {
   background-color: var(--primary-hover-green);
   color: var(--primary-white);
   transition: .2s ease-in-out;
+}
+
+/****************************** SOBRE ***************************************/
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about > h2 {
+  text-transform: uppercase;
+  margin: 1rem;
+  color: var(--primary-green);
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5rem;
+  /* border: 1px solid rgb(101, 19, 168); */
+}
+
+.content-container img {
+  border-radius: 50%;
+  border: 0.6rem double var(--primary-green);
+  margin-right: 0.6rem;
+  width: 22rem;
+}
+
+
+.about-me {
+  /* border: 1px solid orange; */
+  width: 50%;
+  color: var(--primary-dark-op);
+}
+
+@media(max-width: 600px) {
+  .main-info h1 {
+    font-size: 1.6rem !important;
+  }
+
+  .typed-text {
+    font-size: 1.3rem !important
+  }
+
+
+  .content-container {
+    flex-direction: column;
+  }
+
+  .content-container img {
+    width: 15.625rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .about-me {
+    width: 100%;
+    text-align: justify;
+  }
+}
+
+.about-me h3 {
+  text-align: center;
+  color: var(--primary-green);
+}
+
+.quality-hooby {
+  display: flex;
+  justify-content: space-around;
 }
