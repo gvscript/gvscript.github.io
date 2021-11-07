@@ -13,7 +13,7 @@ const Sobre = () => {
           <h3>I´m a dreamer</h3>
           <p>
             Eu sou o Gabriel, paulistano residente da Brasilândia zona norte de SP.<br/>
-            Um apaixonado por histórias de pessoas reais com o objetivo de utilizar a tecnologia como ferramenta de transformação, de inclusão social para um mundo melhor e mais igualitário.
+            Um apaixonado por histórias de pessoas reais com o objetivo de utilizar a tecnologia como ferramenta de transformação e inclusão social para um mundo melhor e mais igualitário.
             <br/>
             Sou formado em Publicidade e Propaganda pela PUC/SP e estudante de Desenvolvimento Web Full-Stack na Trybe.
           </p>
