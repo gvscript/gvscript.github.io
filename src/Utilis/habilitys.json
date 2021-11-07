@@ -2,54 +2,114 @@
   {
     "id": 1,
     "name": "Ubuntu",
-    "icon": "https://github.com/devicons/devicon/blob/master/icons/ubuntu/ubuntu-plain.svg"
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/ubuntu/ubuntu-plain.svg"
   },
 
   {
     "id": 2,
     "name": "Trello",
-    "icon": "https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain.svg"
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/trello/trello-plain.svg"
   },
 
   {
     "id": 3,
     "name": "Slack",
-    "icon": "https://github.com/devicons/devicon/blob/master/icons/slack/slack-original.svg"
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/slack/slack-original.svg"
   },
 
   {
     "id": 4,
     "name": "GitHub",
-    "icon": "https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg"
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/github/github-original.svg"
   },
 
   {
     "id": 5,
     "name": "Git",
-    "icon": "https://github.com/devicons/devicon/blob/master/icons/git/git-plain.svg"
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/git/git-original.svg"
   },
 
   {
     "id": 6,
     "name": "Vscode",
-    "icon": "https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg"
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/vscode/vscode-original.svg"
   },
 
   {
     "id": 7,
     "name": "HTML5",
-    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/html5/html5-original.svg"
   },
 
   {
     "id": 8,
     "name": "CSS3",
-    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/css3/css3-original.svg"
+  },
+
+  {
+    "id": 9,
+    "name": "JavaScript",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/javascript/javascript-original.svg"
+  },
+
+  {
+    "id": 9,
+    "name": "React",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/react/react-original.svg"
   },
 
   {
     "id": 9,
     "name": "JavaScript",
     "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+  },
+
+  {
+    "id": 10,
+    "name": "Redux",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/redux/redux-original.svg"
+  },
+
+  {
+    "id": 11,
+    "name": "Bootstrap",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/bootstrap/bootstrap-original.svg"
+  },
+
+  {
+    "id": 12,
+    "name": "Jest",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/jest/jest-plain.svg"
+  },
+
+  {
+    "id": 13,
+    "name": "JavaScript",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+  },
+
+  {
+    "id": 14,
+    "name": "MongoDB",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/mongodb/mongodb-original.svg"
+  },
+
+  {
+    "id": 15,
+    "name": "MySQL",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/mysql/mysql-original.svg"
+  },
+
+  {
+    "id": 16,
+    "name": "NodeJS",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/nodejs/nodejs-original.svg"
+  },
+
+  {
+    "id": 17,
+    "name": "NPM",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/npm/npm-original-wordmark.svg"
   }
 ]
