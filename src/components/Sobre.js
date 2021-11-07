@@ -10,32 +10,34 @@ const Sobre = () => {
 
         <img alt="Foto Gabriel" src={foto}/>
         <div className="about-me">
-        <h3>I have a dream</h3>
-        <h3>I´m a dreamer</h3>
-        <p>
-          Eu sou o Gabriel, paulistano residente da Brasilândia zona norte de SP.<br/>
-          Um apaixonado por histórias de pessoas reais com o objetivo de utilizar a tecnologia como ferramenta de transformação, de inclusão social para um mundo melhor e mais igualitário.
-          <br/>
-          Sou formado em Publicidade e Propaganda pela PUC/SP e estudante de Desenvolvimento Web Full-Stack na Trybe.
-        </p>
-        <p>
-          Uma palavra: Gratidão - por cada dia cheio de possibilidades de me tornar um ser humano melhor que ontem<br/>
-          Uma frase: "Amar e mudar as coisas me interesa mais" - Belchior
-        </p>
-        <h4>Qualidades:</h4>
-        <Type 
-          className="about-typeText"
-          strings={[
-            'Comunicação',
-            'Respeito',
-            'Empatia',
-            'Humildade',
-            'Senso coletivo',
-          ]}
-          typeSpeed={40}
-          backSpeed={50}
-          loop
-        />
+          <h3>I have a dream</h3>
+          <h3>I´m a dreamer</h3>
+          <p>
+            Eu sou o Gabriel, paulistano residente da Brasilândia zona norte de SP.<br/>
+            Um apaixonado por histórias de pessoas reais com o objetivo de utilizar a tecnologia como ferramenta de transformação, de inclusão social para um mundo melhor e mais igualitário.
+            <br/>
+            Sou formado em Publicidade e Propaganda pela PUC/SP e estudante de Desenvolvimento Web Full-Stack na Trybe.
+          </p>
+          <div className="quality-hooby">
+            <div>
+              <h4>Qualidades:</h4>
+              <ul>
+                <li>Empatia</li>
+                <li>Humildade</li>
+                <li>Comunicação</li>
+                <li>Senso coletivo</li>
+              </ul>
+            </div>
+            <div>
+              <h4>O que eu curto:</h4>
+              <ul>
+                <li>Música</li>
+                <li>Cozinhar</li>
+                <li>Bares</li>
+                <li>Dar risada</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
