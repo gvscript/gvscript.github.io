@@ -5,7 +5,7 @@
   --primary-green: #008037;
   --primary-hover-green: #084222;
   --primary-dark: rgba(255,255,255,0);
-  --primary-dark-op: rgba(0, 0, 0, 0.8);
+  --primary-dark-op: rgba(0, 0, 0, 0.829);
 }
 
 body {
@@ -38,8 +38,6 @@ nav ul li {
 }
 
 .navbar-nav > li > a {
-  /* margin-left: 0.0375rem;
-  margin-right: 0.0375rem; */
   color: var(--primary-white) !important;
   border-top: 0.125rem solid var(--primary-dark);
 }
