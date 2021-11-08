@@ -1,18 +1,14 @@
 import React from 'react';
-import habilitys from '../Utilis/habilitys.json';
 
-const Habilidades = () => {
+
+function CardHability ({site, name, icon}) {
   return (
-    <div>
-      {
-        habilitys.map( (h) => (
-          <div>
-            <img alt={h.name} src={h.icon} />
-          </div>
-        ))
-      }
-    </div>
+    <a href={ site } target="_blank" rel='noreferrer'>
+      <li className="hability-card">
+        <img alt={ name } src={ icon } />
+      </li>
+    </a>
   );
 };
 
-export default Habilidades;
+export default CardHability;
