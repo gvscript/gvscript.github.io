@@ -204,3 +204,21 @@ nav ul li {
   display: flex;
   justify-content: space-around;
 }
+
+/****************************** HABILIDADES ***************************************/
+
+.habilitys-container{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-dark-op);
+  align-items: center;
+}
+
+.cards-container {
+  display: flex;
+  /* background-color: var(--primary-dark-op) */
+}
+
+.hability-card > img {
+  width: 50px;
+}

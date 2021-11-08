@@ -5,18 +5,21 @@ import habilitys from '../Utilis/habilitys.json'
 
 function Habilidades () {
   return (
-    <ul className="habilitys-container">
-      {
-        habilitys.map((h) => (
-          <CardHability
+    <div className="habilitys-container">
+      <h2>Linguagens e Ferramentas</h2>
+      <div className="cards-container">
+        {
+          habilitys.map((h) => (
+            <CardHability
             key={ h.id }
             site={ h.site }
             name={ h.name }
             icon={ h.icon }
-          />
-        ))
-      }
-    </ul>
+            />
+            ))
+          }
+      </div>
+    </div>
   )
 }
 
