@@ -228,7 +228,7 @@ nav ul li {
   justify-content: center;
   width: 90%;
   margin: 1.5rem;
-  border: 2px solid var(--primary-hover-green);
+  /* border: 2px solid var(--primary-hover-green); */
 }
 
 .hability-card {
@@ -242,7 +242,24 @@ nav ul li {
   margin: 0.5rem;
 }
 
+.hability-card:hover {
+  background-color:  var(--primary-dark-op);
+  border-radius: 20%;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  /* transition: .2s ease-in-out */
+}
+
 .hability-card > img {
   position: absolute;
   width: 4.375rem;
+  opacity: 0.7;
+}
+
+.hability-card img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
