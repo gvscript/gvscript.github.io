@@ -5,7 +5,7 @@ import habilitys from '../Utilis/habilitys.json'
 
 function Habilidades () {
   return (
-    <div className="habilitys-container">
+    <div id="habilidades" className="habilitys-container">
       <h2>Linguagens e Ferramentas</h2>
       <div className="cards-container">
         {

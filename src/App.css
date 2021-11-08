@@ -214,11 +214,20 @@ nav ul li {
   align-items: center;
 }
 
+.habilitys-container > h2 {
+  color: var(--primary-white);
+  margin-top: 1.5rem;
+}
+
 .cards-container {
   display: flex;
-  /* background-color: var(--primary-dark-op) */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  border: 1px solid white;
 }
 
 .hability-card > img {
   width: 50px;
+  border: 1px solid var(--primary-green);
 }
