@@ -168,33 +168,33 @@ nav ul li {
 .about-me {
   width: 50%;
   color: var(--primary-dark-op);
-  position: relative;
+  /* position: relative; */
   /* border: 1px solid yellow; */
 }
 
-.about-me::before {
+/* .about-me::before {
   display: block;
   content: '';
   border-top: 0.125rem solid var(--primary-hover-green);
   border-left: 0.125rem  solid var(--primary-green);
   position: absolute;
-  bottom: 19.375rem;
-  right: 37.5rem;
+  bottom: 55vh;
+  right: 40vw;
   width: 6.25rem;
   height: 6.25rem;
-}
+} */
 
-.about-me::after {
+/* .about-me::after {
   display: block;
   content: '';
   border-bottom: 0.125rem  solid var(--primary-hover-green);
   border-right: 0.125rem  solid var(--primary-green);
   position: absolute;
-  top: 19.375rem;
-  left: 37.5rem;
+  top: 55vh;
+  left: 40vw;
   width: 6.25rem;
   height: 6.25rem;
-}
+} */
 
 @media(max-width: 600px) {
   .main-info h1 {
@@ -204,7 +204,6 @@ nav ul li {
   .typed-text {
     font-size: 1.3rem !important
   }
-
 
   .content-container {
     flex-direction: column;
