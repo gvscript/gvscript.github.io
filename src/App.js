@@ -5,7 +5,7 @@ import {
   Header,
   Sobre,
   Habilidades
-} from './Seções'
+} from './Seções/index'
 
 function App() {
   return (

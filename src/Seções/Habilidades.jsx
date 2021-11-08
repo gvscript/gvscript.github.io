@@ -1,5 +1,5 @@
 import React from 'react';
-import CardHability from '../Components/CardHability';
+import CardHability from '../Components/CardHability.jsx';
 import habilitys from '../Utilis/habilitys.json'
 
 
