@@ -166,9 +166,34 @@ nav ul li {
 
 
 .about-me {
-  /* border: 1px solid orange; */
   width: 50%;
   color: var(--primary-dark-op);
+  position: relative;
+  /* border: 1px solid yellow; */
+}
+
+.about-me::before {
+  display: block;
+  content: '';
+  border-top: 0.125rem solid var(--primary-hover-green);
+  border-left: 0.125rem  solid var(--primary-green);
+  position: absolute;
+  bottom: 19.375rem;
+  right: 37.5rem;
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.about-me::after {
+  display: block;
+  content: '';
+  border-bottom: 0.125rem  solid var(--primary-hover-green);
+  border-right: 0.125rem  solid var(--primary-green);
+  position: absolute;
+  top: 19.375rem;
+  left: 37.5rem;
+  width: 6.25rem;
+  height: 6.25rem;
 }
 
 @media(max-width: 600px) {
