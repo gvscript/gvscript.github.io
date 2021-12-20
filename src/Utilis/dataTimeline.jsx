@@ -1,4 +1,4 @@
-[
+const dataTimeline = [
   {
     "id": 1,
     "company": "Droga Raia",
@@ -25,4 +25,6 @@
     "period": "4 meses"
 
   }
-]
+];
+
+export default dataTimeline;
