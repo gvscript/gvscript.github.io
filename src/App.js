@@ -4,7 +4,8 @@ import {
   Navbar,
   Header,
   Sobre,
-  Habilidades
+  Habilidades,
+  Experiencia,
 } from './Seções/index'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Sobre />
       <Habilidades />
+      <Experiencia />
     </>
   );
 }
