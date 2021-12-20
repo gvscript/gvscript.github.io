@@ -116,5 +116,11 @@
     "name": "NPM",
     "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/npm/npm-original-wordmark.svg",
     "site":"https://www.npmjs.com/"
+  },
+  {
+    "id": 18,
+    "name": "Express",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/express/express-original-wordmark.svg",
+    "site":"https://www.npmjs.com/package/express"
   }
 ]

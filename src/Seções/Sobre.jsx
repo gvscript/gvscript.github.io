@@ -33,7 +33,7 @@ const Sobre = () => {
                 <li>Música</li>
                 <li>Cozinhar</li>
                 <li>Bares</li>
-                <li>Dar risada</li>
+                <li>Conversas aleatórias</li>
               </ul>
             </div>
           </div>
