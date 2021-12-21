@@ -246,7 +246,7 @@ nav ul li {
 .habilitys-container > h2 {
   color: var(--primary-hover-green);
   margin: 1.5rem;
-  border-bottom: 3px double var(--primary-hover-green);
+  border-bottom: 0.188rem double var(--primary-hover-green);
 }
 
 .cards-container {
@@ -270,7 +270,7 @@ nav ul li {
 }
 
 .hability-card:hover {
-  border: 5px double var(--primary-green);
+  border: 0.313rem double var(--primary-green);
   border-radius: 10%;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -298,8 +298,15 @@ nav ul li {
 
 .vertical-timeline-element--work > div{
 
-  border: 5px double var(--primary-hover-green);
+  border: 0.313rem double var(--primary-hover-green);
   background: var(--primary-dark-op2);
   color: var(--primary-white);
 }
 
+.vertical-timeline-element--work > div > ul {
+  margin-top: 0.625rem;
+}
+
+.vertical-timeline-element-date > span {
+  color: red !important;
+}

@@ -14,7 +14,7 @@ function CardTimeline () {
         className="vertical-timeline-element--work"
         date="2017 - 10 meses"
         iconStyle={{ background: '#084222' }}
-
+        contentArrowStyle={{ borderRight: '10px solid' }}
       >
         <h3 className="vertical-timeline-element-title">Gerente de Contas</h3>
         <h4 className="vertical-timeline-element-subtitle">Agência Go' W</h4>
@@ -35,7 +35,7 @@ function CardTimeline () {
         className="vertical-timeline-element--work"
         date="2016 - 1 ano 4 meses"
         iconStyle={{ background: '#084222', color: '#fff' }}
-
+        contentArrowStyle={{ borderRight: '10px solid' }}
       >
         <h3 className="vertical-timeline-element-title">Sales Specialist</h3>
         <h4 className="vertical-timeline-element-subtitle">Practo</h4>
@@ -52,7 +52,7 @@ function CardTimeline () {
         className="vertical-timeline-element--work"
         date="2015 - 7 meses"
         iconStyle={{ background: '#084222', color: '#fff' }}
-
+        contentArrowStyle={{ borderRight: '10px solid' }}
       >
         <h3 className="vertical-timeline-element-title">Analista de Conteúdo</h3>
         <h4 className="vertical-timeline-element-subtitle">Practo</h4>
@@ -68,7 +68,7 @@ function CardTimeline () {
         className="vertical-timeline-element--work"
         date="2012 - 1 ano 3 meses"
         iconStyle={{ background: '#084222', color: '#fff' }}
-
+        contentArrowStyle={{ borderRight: '10px solid' }}
       >
         <h3 className="vertical-timeline-element-title">Auxiliar Administrativo</h3>
         <h4 className="vertical-timeline-element-subtitle">Folha de São Paulo</h4>
@@ -86,7 +86,7 @@ function CardTimeline () {
         className="vertical-timeline-element--work"
         date="2008 - 3 anos 10 meses"
         iconStyle={{ background: '#084222', color: '#fff' }}
-
+        contentArrowStyle={{ borderRight: '10px solid' }}
       >
         <h3 className="vertical-timeline-element-title">Teleoperador</h3>
         <h4 className="vertical-timeline-element-subtitle">Folha de São Paulo</h4>
@@ -100,7 +100,7 @@ function CardTimeline () {
         className="vertical-timeline-element--work"
         date="2007 - 6 meses"
         iconStyle={{ background: '#084222', color: '#fff' }}
-
+        contentArrowStyle={{ borderRight: '10px solid' }}
       >
         <h3 className="vertical-timeline-element-title">Operador de Distribuição</h3>
         <h4 className="vertical-timeline-element-subtitle">DHL Supply Chain</h4>
@@ -116,7 +116,7 @@ function CardTimeline () {
         className="vertical-timeline-element--work"
         date="2006 - 4 meses"
         iconStyle={{ background: '#084222', color: '#fff' }}
-
+        contentArrowStyle={{ borderRight: '10px solid' }}
       >
         <h3 className="vertical-timeline-element-title">Encarregado de Loja</h3>
         <h4 className="vertical-timeline-element-subtitle">Droga Raia</h4>
