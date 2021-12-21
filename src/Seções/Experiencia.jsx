@@ -5,7 +5,7 @@ import CardTimeline from '../Components/CardTimeline';
 
 function Experiencia () {
   return(
-    <div className='exp-container'>
+    <div id='experiencias' className='exp-container'>
       <CardTimeline />
 
     </div>
