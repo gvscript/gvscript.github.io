@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d59ce9ec.chunk.css",
+    "main.js": "/static/js/main.d3ab8092.chunk.js",
+    "main.js.map": "/static/js/main.d3ab8092.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ef8cfc0d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ef8cfc0d.js.map",
+    "static/css/2.0cb7a5bf.chunk.css": "/static/css/2.0cb7a5bf.chunk.css",
+    "static/js/2.2e7673c2.chunk.js": "/static/js/2.2e7673c2.chunk.js",
+    "static/js/2.2e7673c2.chunk.js.map": "/static/js/2.2e7673c2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0cb7a5bf.chunk.css.map": "/static/css/2.0cb7a5bf.chunk.css.map",
+    "static/css/main.d59ce9ec.chunk.css.map": "/static/css/main.d59ce9ec.chunk.css.map",
+    "static/js/2.2e7673c2.chunk.js.LICENSE.txt": "/static/js/2.2e7673c2.chunk.js.LICENSE.txt",
+    "static/media/Gabis2.44ef9987.jpeg": "/static/media/Gabis2.44ef9987.jpeg",
+    "static/media/App.css": "/static/media/bgSetup5.af00fd0d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef8cfc0d.js",
+    "static/css/2.0cb7a5bf.chunk.css",
+    "static/js/2.2e7673c2.chunk.js",
+    "static/css/main.d59ce9ec.chunk.css",
+    "static/js/main.d3ab8092.chunk.js"
+  ]
+}
