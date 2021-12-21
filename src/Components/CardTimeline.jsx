@@ -9,7 +9,7 @@ import 'react-vertical-timeline-component/style.min.css';
 // {company, area, tasks, year, period}
 function CardTimeline () {
   return (
-    <VerticalTimeline >
+    <VerticalTimeline lineColor={'rgba(0, 0, 0, 0)'}>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2017 - 10 meses"

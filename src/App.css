@@ -6,6 +6,7 @@
   --primary-hover-green: #084222;
   --primary-dark: rgba(255,255,255,0);
   --primary-dark-op: rgba(0, 0, 0, 0.829);
+  --primary-dark-op2: rgba(0, 0, 0, 0.103);
 }
 
 body {
@@ -291,13 +292,14 @@ nav ul li {
 }
 
 
-/* exp-container
-
-.vertical-timeline-element--work > div{
-  background: red !important;
+.exp-container {
+  background: var(--primary-dark-op);
 }
 
-.vertical-timeline {
-  width: 100% !important;
-  background: blue;
-} */
+.vertical-timeline-element--work > div{
+
+  border: 5px double var(--primary-hover-green);
+  background: var(--primary-dark-op2);
+  color: var(--primary-white);
+}
+
