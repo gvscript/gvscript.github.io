@@ -225,6 +225,7 @@ nav ul li {
 .about-me h3 {
   text-align: center;
   color: var(--primary-green);
+
 }
 
 .quality-hooby {
@@ -237,13 +238,14 @@ nav ul li {
 .habilitys-container{
   display: flex;
   flex-direction: column;
-  background-color: var(--primary-dark-op);
+  background-color: var(--primary-white);
   align-items: center;
 }
 
 .habilitys-container > h2 {
-  color: var(--primary-white);
+  color: var(--primary-green);
   margin: 1.5rem;
+  border-bottom: 3px double var(--primary-green);
 }
 
 .cards-container {
@@ -267,8 +269,8 @@ nav ul li {
 }
 
 .hability-card:hover {
-  background-color:  var(--primary-dark-op);
-  border-radius: 20%;
+  border: 5px double var(--primary-green);
+  border-radius: 10%;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -278,7 +280,7 @@ nav ul li {
 .hability-card > img {
   position: absolute;
   width: 4.375rem;
-  opacity: 0.7;
+  /* opacity: 0.7; */
 }
 
 .hability-card img:hover {
