@@ -28,12 +28,12 @@ const Sobre = () => {
               </ul>
             </div>
             <div>
-              <h4>O que curto:</h4>
+              <h4>Hobbies:</h4>
               <ul>
                 <li>Música</li>
                 <li>Cozinhar</li>
                 <li>Bares</li>
-                <li>Dar risada</li>
+                <li>Conversas aleatórias</li>
               </ul>
             </div>
           </div>

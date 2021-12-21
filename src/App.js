@@ -1,8 +1,12 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from './Seções/Navbar';
-import Header from './Seções/Header';
-import Sobre from './Seções/Sobre';
+import {
+  Navbar,
+  Header,
+  Sobre,
+  Habilidades,
+  Experiencia,
+} from './Seções/index'
 
 function App() {
   return (
@@ -10,6 +14,8 @@ function App() {
       <Navbar />
       <Header />
       <Sobre />
+      <Habilidades />
+      <Experiencia />
     </>
   );
 }
