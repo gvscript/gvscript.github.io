@@ -287,3 +287,15 @@ nav ul li {
   -ms-transform: scale(1);
   transform: scale(1);
 }
+
+
+/* exp-container
+
+.vertical-timeline-element--work > div{
+  background: red !important;
+}
+
+.vertical-timeline {
+  width: 100% !important;
+  background: blue;
+} */
