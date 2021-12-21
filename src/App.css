@@ -315,6 +315,7 @@ nav ul li {
   margin-top: 0.625rem;
 }
 
-.vertical-timeline-element-date > span {
-  color: red !important;
+.vertical-timeline-element-content .vertical-timeline-element-date {
+  font-size: x-large !important;
+  /* height: 50px; */
 }
