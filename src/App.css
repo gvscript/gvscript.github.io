@@ -160,7 +160,7 @@ nav ul li {
 
 .content-container img {
   border-radius: 50%;
-  border: 0.6rem double var(--primary-green);
+  border: 0.6rem double var(--primary-hover-green);
   margin-right: 0.6rem;
   width: 22rem;
 }
@@ -225,7 +225,7 @@ nav ul li {
 
 .about-me h3 {
   text-align: center;
-  color: var(--primary-green);
+  color: var(--primary-hover-green);
 
 }
 
@@ -244,9 +244,9 @@ nav ul li {
 }
 
 .habilitys-container > h2 {
-  color: var(--primary-green);
+  color: var(--primary-hover-green);
   margin: 1.5rem;
-  border-bottom: 3px double var(--primary-green);
+  border-bottom: 3px double var(--primary-hover-green);
 }
 
 .cards-container {

@@ -13,7 +13,7 @@ function CardTimeline () {
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2017 - 10 meses"
-        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+        iconStyle={{ background: '#084222' }}
 
       >
         <h3 className="vertical-timeline-element-title">Gerente de Contas</h3>
@@ -34,7 +34,7 @@ function CardTimeline () {
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2016 - 1 ano 4 meses"
-        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+        iconStyle={{ background: '#084222', color: '#fff' }}
 
       >
         <h3 className="vertical-timeline-element-title">Sales Specialist</h3>
@@ -51,7 +51,7 @@ function CardTimeline () {
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2015 - 7 meses"
-        iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+        iconStyle={{ background: '#084222', color: '#fff' }}
 
       >
         <h3 className="vertical-timeline-element-title">Analista de Conteúdo</h3>
@@ -67,7 +67,7 @@ function CardTimeline () {
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2012 - 1 ano 3 meses"
-        iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+        iconStyle={{ background: '#084222', color: '#fff' }}
 
       >
         <h3 className="vertical-timeline-element-title">Auxiliar Administrativo</h3>
@@ -85,7 +85,7 @@ function CardTimeline () {
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2008 - 3 anos 10 meses"
-        iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+        iconStyle={{ background: '#084222', color: '#fff' }}
 
       >
         <h3 className="vertical-timeline-element-title">Teleoperador</h3>
@@ -99,7 +99,7 @@ function CardTimeline () {
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2007 - 6 meses"
-        iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+        iconStyle={{ background: '#084222', color: '#fff' }}
 
       >
         <h3 className="vertical-timeline-element-title">Operador de Distribuição</h3>
@@ -115,7 +115,7 @@ function CardTimeline () {
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2006 - 4 meses"
-        iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+        iconStyle={{ background: '#084222', color: '#fff' }}
 
       >
         <h3 className="vertical-timeline-element-title">Encarregado de Loja</h3>
